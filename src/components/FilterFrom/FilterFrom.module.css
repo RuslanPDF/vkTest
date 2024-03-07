@@ -1,0 +1,28 @@
+.groupsForm {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+
+.groupsForm form {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.groupsForm form * {
+    margin: 0 10px;
+}
+
+.groupsForm form select {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid lightcoral;
+    background: black;
+    color: white;
+}
+
+.groupsForm form label {
+    display: flex;
+    align-items: center;
+}

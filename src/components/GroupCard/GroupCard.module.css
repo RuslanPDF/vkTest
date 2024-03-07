@@ -1,0 +1,22 @@
+.group {
+    width: 300px;
+    margin-bottom: 15px;
+    background-color: azure;
+    padding: 20px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+
+.groupCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    column-gap: 24px;
+    align-items: center;
+}
+
+.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
